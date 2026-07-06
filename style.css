@@ -2,6 +2,7 @@
 
 .design {
     /*to center*/
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -9,12 +10,17 @@
     gap: 3px;
 }
 
-.card {
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
 .design h1{
     padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
