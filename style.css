@@ -1,0 +1,20 @@
+/*style for background*/
+
+.design {
+    /*to center*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 3px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.design h1{
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
